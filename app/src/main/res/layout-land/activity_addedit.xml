@@ -4,10 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="io.github.stekeblad.mytodoapp.addedit.AddEditActivity">
+    tools:context="io.github.stekeblad.mynotesapp.addedit.AddEditActivity">
 
     <EditText
-        android:id="@+id/NewTodoHeader"
+        android:id="@+id/NewNoteHeader"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginEnd="16dp"
@@ -21,7 +21,7 @@
         android:layout_marginStart="16dp" />
 
     <EditText
-        android:id="@+id/NewTodoDescription"
+        android:id="@+id/NewNoteDescription"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginBottom="8dp"
@@ -34,7 +34,7 @@
         app:layout_constraintEnd_toStartOf="@+id/btn_save"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintStart_toEndOf="@+id/btn_cancel"
-        app:layout_constraintTop_toBottomOf="@+id/NewTodoHeader" />
+        app:layout_constraintTop_toBottomOf="@+id/NewNoteHeader" />
 
     <Button
         android:id="@+id/btn_save"
@@ -47,7 +47,7 @@
         android:text="@string/btn_save"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/NewTodoHeader"
+        app:layout_constraintTop_toBottomOf="@+id/NewNoteHeader"
         android:layout_marginRight="8dp" />
 
     <Button
@@ -61,7 +61,7 @@
         android:text="@android:string/cancel"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/NewTodoHeader"
+        app:layout_constraintTop_toBottomOf="@+id/NewNoteHeader"
         android:layout_marginLeft="8dp" />
 
     <ProgressBar
@@ -75,7 +75,7 @@
         android:layout_marginTop="8dp"
         android:progress="@android:integer/config_shortAnimTime"
         android:visibility="gone"
-        app:layout_constraintBottom_toBottomOf="@+id/NewTodoDescription"
+        app:layout_constraintBottom_toBottomOf="@+id/NewNoteDescription"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintStart_toStartOf="parent"

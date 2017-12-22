@@ -4,10 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="io.github.stekeblad.mytodoapp.addedit.AddEditActivity">
+    tools:context="io.github.stekeblad.mynotesapp.addedit.AddEditActivity">
 
     <EditText
-        android:id="@+id/NewTodoHeader"
+        android:id="@+id/NewNoteHeader"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginEnd="16dp"
@@ -21,7 +21,7 @@
         android:layout_marginStart="16dp" />
 
     <EditText
-        android:id="@+id/NewTodoDescription"
+        android:id="@+id/NewNoteDescription"
         android:layout_width="0dp"
         android:layout_height="398dp"
         android:layout_marginBottom="8dp"
@@ -33,7 +33,7 @@
         app:layout_constraintBottom_toTopOf="@+id/linearLayout"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/NewTodoHeader" />
+        app:layout_constraintTop_toBottomOf="@+id/NewNoteHeader" />
 
     <LinearLayout
         android:id="@+id/linearLayout"

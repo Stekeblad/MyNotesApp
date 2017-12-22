@@ -5,11 +5,11 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="io.github.stekeblad.mytodoapp.main.MainActivity"
+    tools:context="io.github.stekeblad.mynotesapp.main.MainActivity"
     tools:showIn="@layout/activity_main">
 
     <ListView
-        android:id="@+id/TodoList"
+        android:id="@+id/NotesList"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:longClickable="true" />
