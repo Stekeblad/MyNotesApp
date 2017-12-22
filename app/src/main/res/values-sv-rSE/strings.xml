@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Min att-göra app</string>
+    <string name="btn_save">Spara</string>
+    <string name="nav_addNew">Skapa ny uppgift</string>
+    <string name="nav_delAll">Radera alla</string>
+    <string name="no">Nej</string>
+    <string name="yes">Ja</string>
+    <string name="cancel">Avbryt</string>
+    <string name="delete">Ta bort</string>
+    <string name="dlg_delete_title">Bekräfta borttagning</string>
+    <string name="dlg_delete_msg">Är du säker på att du vill ta bort</string>
+    <string name="addEdit_headerReq">En rubrik är obligatorisk, beskrivning är frivillig</string>
+    <string name="dlg_back_title">Gå tillbaka?</string>
+    <string name="dlg_back_msg_notSaved">Vill du gå tillbaka? Denna att-göra kommer inte att sparas.</string>
+    <string name="dlg_back_msg_changesLost">Vill du gå tillbaka? Alla ändringar kommer att gå förlorade.</string>
+    <string name="dlg_deleteAll_title">Radera allt?</string>
+    <string name="dlg_deleteAll_msg">Är du säker på att du vill radera ALLTING?</string>
+    <string name="btn_edit">Redigera</string>
+    <string name="error">Fel</string>
+    <string name="close">Stäng</string>
+</resources>

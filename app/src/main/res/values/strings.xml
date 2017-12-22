@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">My Todo App</string>
+    <string name="nav_delAll">Delete All</string>
+    <string name="nav_addNew">Add Task</string>
+    <string name="btn_save">Save</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete">Delete</string>
+    <string name="dlg_delete_title">Confirm Delete</string>
+    <string name="dlg_delete_msg">Are you sure you want to delete</string>
+    <string name="addEdit_headerReq">A header is required, description is optional</string>
+    <string name="dlg_back_title">Go back?</string>
+    <string name="dlg_back_msg_notSaved">Do you want to go back? This todo will not be saved.</string>
+    <string name="dlg_back_msg_changesLost">Do you want to go back? All changes will be lost.</string>
+    <string name="dlg_deleteAll_title">Delete Everyhing?</string>
+    <string name="dlg_deleteAll_msg">Are you sure you want to delete EVERYTHING?</string>
+    <string name="btn_edit">Edit</string>
+    <string name="error">Error</string>
+    <string name="close">Close</string>
+</resources>
